@@ -18,7 +18,7 @@ const HomePage = () => {
       </h1>
 
       <h3>
-        Hello viewers, this is my website that was built using React Native. This project includes common features, such as switching between light and dark mode or switching between different pages, using basic React hooks, such as useContext and useState (for now).
+        Hello viewers, this is my website that was built using React Native. This project includes common features, such as switching between light and dark mode or switching between different pages, using basic React hooks, such as useContext, useEffect, and useState (for now).
       </h3>
 
       <div

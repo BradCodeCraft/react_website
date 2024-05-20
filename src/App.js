@@ -13,7 +13,7 @@ const App = () => {
   const currentPage = { page, setPage};
 
   return (
-    <div className="app-container">
+    <div className={`${theme}-app-container`}>
       <ThemeContext.Provider value={currentTheme}>
         <PageContext.Provider value={currentPage}>
           <NavigationBar />
