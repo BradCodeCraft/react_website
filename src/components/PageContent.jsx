@@ -12,7 +12,7 @@ const PageContent = () => {
   const { page} = useContext(PageContext);
 
   return (
-    <div className={`${theme}-home-page-container`}>
+    <div className={`${theme}-page-content-container`}>
       {
        (page === 'home') ?
        <HomePage /> :

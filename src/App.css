@@ -12,7 +12,7 @@ body {
 }
 
 .light-navigation-bar-container{
-  background-color: lightskyblue;
+  background-color: #87CEFA;
 }
 
 .dark-navigation-bar-container {
@@ -77,26 +77,109 @@ body {
 
 
 /* PageContent component */
-.light-home-page-container h1, h2, h3, h4, .dark-home-page-container h1, h2, h3, h4 {
+.light-page-content-container h1, h2, h3, h4, .dark-page-content-container h1, h2, h3, h4 {
   margin-top: 0;
 }
 
-.light-home-page-container, .dark-home-page-container {
-  width: 100vw;
-  height: 100vh;
+.light-page-content-container, .dark-page-content-container {
+  height: 100%;
   
   margin-left: 50px;
   padding-left: 10px;
 }
 
-.light-home-page-container {
+.light-page-content-container {
   background-color: #ffffff;
 
   color: #1E2019;
 }
 
-.dark-home-page-container {
+.dark-page-content-container {
   background-color: #1E2019;
 
   color: #ffffff;
+}
+
+.home-page-container, .store-page-container, .community-page-container, .profile-page-container {
+  height: 100vh;
+}
+
+/* HomePage component */
+.light-contact-info-area-container, .dark-contact-info-area-container {
+  width: 100vw;
+  height: 250px;
+
+  margin-left: -10px;
+  padding-left: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.light-contact-info-area-container {
+  background-color: #1E2019;
+  
+  color: #ffffff;
+}
+
+.dark-contact-info-area-container {
+  background-color: #ffffff;
+  
+  color: #1E2019;
+}
+
+.contact-info-header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.contact-info-container {
+  width: 100%;
+  height: 100%;
+
+  padding-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.location-info-container, .phone-info-container, .email-info-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.light-info-icon, .dark-info-icon {
+  width: 40px;
+  height: 40px;
+
+  padding: 10px;
+
+  border-radius: 50%;
+}
+
+.light-info-icon {
+  background-color: #87CEFA;
+
+  color: #1E2019;
+}
+
+.dark-info-icon {
+  background-color: #355691;
+
+  color: #ffffff;
+}
+
+.info-text-container {
+  width: 100%;
+
+  padding-left: 20px;
+}
+
+.info-text-container h3, h4 {
+  margin: 0;
 }
